@@ -1,0 +1,201 @@
+.tabs-div > ul{
+    text-align: center;
+    padding: 20px;
+}
+.tabs-div > ul > li{
+    display: inline;
+    margin: 20px;
+    font-size: 18px;
+}
+.main-navbar > .row-nav{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    width: 100%;
+}
+.products:hover{
+    background-color: orangered;
+}
+.logo{
+    width: 10%;
+    font-size: 30px;
+    color: orangered;
+}
+.search{
+    width: 40%;
+    margin-left: -100px;
+}
+.search > input{
+    padding: 11px;
+    border-radius: 25px;
+    border: 2px solid orangered;
+    width: 100%;
+}
+.search > button{
+    position: absolute;
+    margin-left: 740px;
+    padding: 13px;
+    background-color: orangered;
+    color: white;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    border: none;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: center;
+
+}
+.search > img{
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 7px;
+
+}
+.childnav{
+    width: 100%;
+    
+}
+
+
+  /* card css */
+
+.product-image{
+    width: 80%;
+    margin: 0 auto;
+}
+.card-one, .card-two, .card-theree, .card-four{
+    width: 24% !important;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 2px 2px 20px lightgrey;
+    margin: 5px;
+    padding: 15px;
+}
+.btn-primary{
+    border-radius: 25px !important;
+    border: 2px solid black !important;
+    background-color: white !important;
+    color: black !important;
+    margin-top: 10px !important;
+}
+.btn-1{
+    width: 100%;
+}
+.btn-4{
+    background-color: orangered !important;
+    border: none !important;
+    color: white !important;
+}
+.banner{
+    margin-top: -100px;
+}
+.mtr{
+    margin-top: 100px !important;
+}
+.nvbar{
+    margin-left: 20px;
+    padding: 20px;
+
+}
+.gap{
+    display: flex;
+    margin-left: 150px;
+}
+
+/* cardmanu */
+
+.largeimage{
+    width: 100%;
+    height: 80%;
+    border-radius: 8px;
+}
+.hero-section{
+    margin-top: 10px !important;
+    background-color: white;
+    padding: 5px;
+    box-shadow: 2px 2px 20px lightgrey;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
+.texting{
+    width: 23% !important;
+    
+}
+.childimage{
+    width: 15.66666667%;
+}
+.childimage > img{
+    width: 90%;
+    border-radius: 8px;
+}
+.hero-section > .col-3{
+    margin: 5px;
+}
+.hero-section > .col-2{
+    margin: 5px;
+}
+
+
+/* footer */
+
+footer {
+    display: flex;
+    box-shadow: 2px 2px 20px lightgrey;
+}
+
+.footerLeft {
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    margin-left: 240px;
+    
+}
+.fMenuTitle {
+    font-size: 16px;
+}
+
+.fList {
+    padding: 0;
+    list-style: none;
+}
+
+.fListItem {
+    margin-bottom: 10px;
+    color: gray;
+    cursor: pointer;
+}
+
+.footerRight {
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fInput {
+    padding: 5px;
+}
+
+.fButton {
+    padding: 5px;
+    background-color: black;
+    color: white;
+}
+
+.fIcons {
+    display: flex;
+}
+
+.fIcon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+/* sresult */
+.result{
+    text-align: center;
+}
